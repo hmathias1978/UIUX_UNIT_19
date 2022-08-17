@@ -1,0 +1,196 @@
+
+
+.inline-block {
+    display: inline-block;
+    vertical-align: center;
+    color: white;
+    text-align: right;
+
+  } 
+
+.logo {
+      width: 14%;
+      padding: 1%;
+      text-align: center;
+  }
+
+nav {
+      width: 73%;
+      padding: 5px;
+      }
+
+.navigation {
+        background-color: #00295f;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+            }
+
+
+
+ul {
+    margin-left: auto;  
+    width: 60%;      
+  }
+
+li {
+    padding-left: 70px;  
+  }
+
+.content{
+      width: 75%px;
+      margin: 0 auto;
+      font-size: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+ }
+
+.heroImg{
+      height: 600px;
+      padding: 25px;
+      border-radius: 60%;
+  }
+
+.rounded {
+    border-radius: 50%;
+        }
+
+footer{
+      background-color: #373738;   
+      padding: 2px;
+  }
+  
+.mySkills {
+    width: 75%px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.myWork{
+    width: 75%px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+hr {
+    width: 70%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00295f;
+    border: 0 none;
+  }
+
+.ulfooter {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexContainer {
+    display: flex;
+    border-style: solid;
+    border-color: white;
+    justify-content: center;
+    margin: 0 10% 5% 10%;
+    column-gap: 50px;
+}
+.color{ 
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    background-color: #073673;
+    padding: 10px;
+  }
+  
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .workGrid > div {
+    background-color: white;
+    text-align: left;
+    padding: 20px 20px;
+  }
+
+
+  .button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0 3% 0;
+    align-items: center;
+}
+
+
+button {
+    background-color: #00295f; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 0 0 1% 0;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #6d9cda;  
+    color: white;
+  }
+
+
+
+
+
+
+  
+  @media only screen and (maxWidth: 600)
+  
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin: 0 1% 0 1%;
+    align-items: center;
+  }
+
+  .flexBox {
+      width: 92%;
+      margin: 0 0 8% 0;
+      
+  }
+  .content {
+      width: 100%;
+  }
+  .heroImg {
+      display: flex;
+      width: 85%;
+      margin: 0 auto;
+  }
+  .button {
+      margin: 0 0 10% 0;
+      row-gap: 5px;
+  }
+  h1 {
+      font-size: 40px;
+}
+
+
